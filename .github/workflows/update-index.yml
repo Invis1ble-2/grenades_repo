@@ -8,6 +8,10 @@ on:
       - '!index.json'
   workflow_dispatch:  # 允许手动触发
 
+# 添加写入权限
+permissions:
+  contents: write
+
 jobs:
   update-index:
     runs-on: ubuntu-latest
