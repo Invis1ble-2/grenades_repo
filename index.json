@@ -2,7 +2,6 @@
   "version": 1,
   "updated": "2025-12-22",
   "sources": [
-    "packages/dust2/example.json",
     "packages/inferno/official_inferno_basic.json"
   ],
   "packages": [
@@ -15,16 +14,6 @@
       "url": "packages/inferno/official_inferno_basic.cs2pkg",
       "author": "官方",
       "map": "inferno"
-    },
-    {
-      "id": "example_dust2_smokes_v1",
-      "name": "Dust2 烟雾合集",
-      "description": "常用的 A/B 站烟点",
-      "version": "1.0.0",
-      "updated": "2024-12-22",
-      "url": "packages/dust2/example_smokes.cs2pkg",
-      "author": "示例贡献者",
-      "map": "dust2"
     }
   ]
 }
