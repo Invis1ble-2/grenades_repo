@@ -34,10 +34,9 @@ packages/
       "id": "your_name_dust2_v1",
       "name": "Dust2 烟雾合集",
       "description": "我常用的烟点",
-      "count": 15,
+      "version": "1.0.0",
       "updated": "2024-12-22",
-      "url": "packages/dust2/your_name_smokes.cs2pkg",
-      "size": "2.5MB"
+      "url": "packages/dust2/your_name_smokes.cs2pkg"
     }
   ]
 }
@@ -57,10 +56,9 @@ packages/
 | `name` | string | ✅ | 显示名称 |
 | `description` | string | ❌ | 描述信息 |
 | `map` | string/null | ❌ | 地图名（地图文件夹中自动设置） |
-| `count` | int | ❌ | 道具数量 |
-| `updated` | string | ✅ | 更新日期 (YYYY-MM-DD) |
+| `version` | string | ✅ | 版本号，如 "1.0.0"（用于检测更新） |
+| `updated` | string | ❌ | 更新日期 (YYYY-MM-DD) |
 | `url` | string | ✅ | .cs2pkg 文件相对路径 |
-| `size` | string | ❌ | 文件大小 |
 
 ## 目录结构
 

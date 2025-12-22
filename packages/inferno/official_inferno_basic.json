@@ -1,0 +1,13 @@
+{
+    "author": "官方",
+    "packages": [
+        {
+            "id": "official_inferno_basic",
+            "name": "Inferno 道具助手官方基础道具包",
+            "description": "Inferno 常用道具",
+            "version": "1.0.0",
+            "updated": "2025-12-22",
+            "url": "packages/inferno/official_inferno_basic.cs2pkg"
+        }
+    ]
+}
