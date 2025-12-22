@@ -1,0 +1,25 @@
+{
+  "author": "示例贡献者",
+  "packages": [
+    {
+      "id": "example_dust2_v1",
+      "name": "Dust2 烟雾合集",
+      "description": "这是一个示例道具包，用于展示格式",
+      "map": "dust2",
+      "count": 5,
+      "updated": "2024-12-22",
+      "url": "packages/dust2/example_smokes.cs2pkg",
+      "size": "1.0MB"
+    },
+    {
+      "id": "example_all_maps_v1",
+      "name": "全图精选道具",
+      "description": "跨地图的精选道具整合包",
+      "map": null,
+      "count": 20,
+      "updated": "2024-12-22",
+      "url": "packages/example_全图精选.cs2pkg",
+      "size": "3.5MB"
+    }
+  ]
+}

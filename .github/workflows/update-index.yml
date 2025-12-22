@@ -1,0 +1,35 @@
+name: Update Index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.json'
+      - '!index.json'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Dart
+        uses: dart-lang/setup-dart@v1
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Run update script
+        run: dart script/update_index.dart
+
+      - name: Commit and Push changes
+        run: |
+          git add index.json
+          git diff --staged --quiet || git commit -m "chore: auto-update index.json"
+          git push
