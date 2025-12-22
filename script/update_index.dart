@@ -57,6 +57,14 @@ Future<void> _scanDirectory(
 ) async {
   await for (final entity in dir.list()) {
     if (entity is File && entity.path.endsWith('.json')) {
+      final fileName = entity.uri.pathSegments.last.toLowerCase();
+
+      // 排除示例文件
+      if (fileName == 'example.json' || fileName.startsWith('example_')) {
+        print('  跳过示例: ${entity.path}');
+        continue;
+      }
+
       final relativePath = entity.path
           .replaceFirst(Directory.current.path, '')
           .replaceAll('\\', '/')
