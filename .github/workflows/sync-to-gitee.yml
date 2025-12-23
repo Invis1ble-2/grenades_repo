@@ -1,0 +1,23 @@
+name: Sync to Gitee
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@v1
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_KEY }}
+        with:
+          source-repo: git@github.com:Invis1ble-2/grenades_repo.git
+          destination-repo: git@gitee.com:Invis1ble-2/grenades_repo.git
