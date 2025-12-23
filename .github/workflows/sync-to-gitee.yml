@@ -14,10 +14,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Sync to Gitee
-        uses: wearerequired/git-mirror-action@v1
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_KEY }}
-        with:
-          source-repo: git@github.com:Invis1ble-2/grenades_repo.git
-          destination-repo: git@gitee.com:Invis1ble-2/grenades_repo.git
+      - name: Push to Gitee
+        run: |
+          git remote add gitee https://${{ secrets.GITEE_USER }}:${{ secrets.GITEE_TOKEN }}@gitee.com/${{ secrets.GITEE_USER }}/grenades_repo.git
+          git push gitee main --force
