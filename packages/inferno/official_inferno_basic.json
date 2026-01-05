@@ -7,6 +7,7 @@
             "description": "Inferno 常用道具",
             "version": "1.0.0",
             "updated": "2025-12-22",
+            "cdnUrl": "https://assets.grenade-helper.top/official_inferno_basic.cs2pkg",
             "url": "https://ghproxy.grenade-helper.top/r2/official_inferno_basic.cs2pkg"
         }
     ]
