@@ -1,0 +1,13 @@
+{
+    "author": "鱼辞",
+    "packages": [
+        {
+            "id": "Inferno_Yuci",
+            "name": "鱼辞的Inferno 道具",
+            "description": "由B站用户鱼辞提供的Inferno 道具合集",
+            "version": "1.0.0",
+            "updated": "2026-1-5",
+            "url": "https://ghproxy.grenade-helper.top/r2/Inferno_Yuci.cs2pkg"
+        }
+    ]
+}
