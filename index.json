@@ -13,6 +13,7 @@
       "description": "由B站用户鱼辞提供的Inferno 道具合集",
       "version": "1.0.0",
       "updated": "2026-1-5",
+      "cdnUrl": "https://assets.grenade-helper.top/Inferno_Yuci.cs2pkg",
       "url": "https://ghproxy.grenade-helper.top/r2/Inferno_Yuci.cs2pkg",
       "author": "鱼辞",
       "map": "inferno"
@@ -23,6 +24,7 @@
       "description": "Dust2 道具全包含",
       "version": "1.0.0",
       "updated": "2025-12-24",
+      "cdnUrl": "https://assets.grenade-helper.top/cs2_Dust%202.cs2pkg",
       "url": "https://ghproxy.grenade-helper.top/r2/cs2_Dust%202.cs2pkg",
       "author": "乔无极",
       "map": "dust2"
@@ -33,6 +35,7 @@
       "description": "Inferno 常用道具",
       "version": "1.0.0",
       "updated": "2025-12-22",
+      "cdnUrl": "https://assets.grenade-helper.top/official_inferno_basic.cs2pkg",
       "url": "https://ghproxy.grenade-helper.top/r2/official_inferno_basic.cs2pkg",
       "author": "官方",
       "map": "inferno"
