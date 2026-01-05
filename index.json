@@ -1,11 +1,22 @@
 {
   "version": 1,
-  "updated": "2025-12-24",
+  "updated": "2026-01-05",
   "sources": [
     "packages/dust2/Dust2_by_qwj.json",
+    "packages/inferno/Inferno_Yuci.json",
     "packages/inferno/official_inferno_basic.json"
   ],
   "packages": [
+    {
+      "id": "Inferno_Yuci",
+      "name": "鱼辞的Inferno 道具",
+      "description": "由B站用户鱼辞提供的Inferno 道具合集",
+      "version": "1.0.0",
+      "updated": "2026-1-5",
+      "url": "https://ghproxy.grenade-helper.top/r2/Inferno_Yuci.cs2pkg",
+      "author": "鱼辞",
+      "map": "inferno"
+    },
     {
       "id": "qwj_dust2_all_grenades",
       "name": "由 乔无极 提供的Dust2 道具全包含",
