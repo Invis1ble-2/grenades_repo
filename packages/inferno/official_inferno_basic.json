@@ -4,9 +4,9 @@
         {
             "id": "official_inferno_basic",
             "name": "Inferno 道具助手官方基础道具包",
-            "description": "Inferno 常用道具",
-            "version": "1.0.0",
-            "updated": "2025-12-22",
+            "description": "Inferno 常用道具(已添加爆点)",
+            "version": "1.0.1",
+            "updated": "2026-1-12",
             "url": "https://assets.grenade-helper.top/official_inferno_basic.cs2pkg",
             "cdnUrl": "https://ghproxy.grenade-helper.top/r2/official_inferno_basic.cs2pkg"
         }
