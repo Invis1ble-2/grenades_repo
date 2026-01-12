@@ -19,6 +19,17 @@
       "map": "inferno"
     },
     {
+      "id": "official_inferno_basic",
+      "name": "Inferno 道具助手官方基础道具包",
+      "description": "Inferno 常用道具(已添加爆点)",
+      "version": "1.0.1",
+      "updated": "2026-1-12",
+      "url": "https://assets.grenade-helper.top/official_inferno_basic.cs2pkg",
+      "cdnUrl": "https://ghproxy.grenade-helper.top/r2/official_inferno_basic.cs2pkg",
+      "author": "官方",
+      "map": "inferno"
+    },
+    {
       "id": "qwj_dust2_all_grenades",
       "name": "由 乔无极 提供的Dust2 道具全包含",
       "description": "Dust2 道具全包含",
@@ -28,17 +39,6 @@
       "cdnUrl": "https://ghproxy.grenade-helper.top/r2/cs2_Dust%202.cs2pkg",
       "author": "乔无极",
       "map": "dust2"
-    },
-    {
-      "id": "official_inferno_basic",
-      "name": "Inferno 道具助手官方基础道具包",
-      "description": "Inferno 常用道具",
-      "version": "1.0.0",
-      "updated": "2025-12-22",
-      "url": "https://assets.grenade-helper.top/official_inferno_basic.cs2pkg",
-      "cdnUrl": "https://ghproxy.grenade-helper.top/r2/official_inferno_basic.cs2pkg",
-      "author": "官方",
-      "map": "inferno"
     }
   ]
 }
